@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .wrap{
+            width: 320px;height: 568px;background: url(../img/开始背景.png);position: absolute;left: 0;right: 0;top: 0;bottom: 0;margin: auto;overflow: hidden;
+        }
+        button{
+            width: 160px;height: 40px;line-height: 40px;border:none;outline: none;border: 1px solid #999;position: absolute;left: 50%;margin-left: -80px;bottom: 60px;
+        }
+        .myPlane{
+            width: 66px;height: 80px;background: url(./img/我的飞机.gif);position: absolute;
+        }
+        .bullet{
+            width: 6px;height: 14px;background: url(./img/bullet1.png);position: absolute;
+        }
+        .enemy{
+            position:absolute;background-size: 100% 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <button>开始游戏</button>
+    </div>
+    <script src="./index.js" type="module"></script>
+</body>
+</html>
